@@ -32,7 +32,7 @@ nav a {
   font-weight: bold;
 }
 
-/* Wave Animation */
+/* Wave/bounce Animation */
 @keyframes wave {
   0%, 100% {
     transform: translateY(0px);
@@ -113,7 +113,6 @@ p {
   margin-left: auto;
 }
 
-/* Help Page - Fix for Bullets */
 ul {
   list-style-position: outside;  /* Ensures bullets are outside the list */
   padding-left: 1.5rem;  /* Adds padding to ensure bullets are aligned correctly */
@@ -125,7 +124,6 @@ li {
   margin-bottom: 1rem;  /* Adds space between list items */
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
   .logo-bar {
     flex-direction: column;
@@ -141,6 +139,6 @@ li {
   }
 
   ul {
-    padding-left: 1.2rem;  /* Adjust padding for smaller screens */
+    padding-left: 1.2rem;
   }
 }
